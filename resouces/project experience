@@ -1,0 +1,9 @@
+面试项目经验：1.需求(做过什么)2.什么环境用什么工具、技术、软件、框架做的3.关键核心技术点是什么4.介绍各框架技术要点
+
+臻络： 1.IM即时通讯、帕金森问诊表、收集潜在帕金森患者的前驱期、病历管理的睿云2.scala、sbt、swagger、akka-http、akka协议(远程)，api层分为akka、http应用类型，dao使用getquill  json数据使用io.circle
+聚合层domain  协议层
+
+1.需求2.医学领域问卷复杂性：复杂数据结构的确定，数据库表结构的确定，IM数据抄送(由网络上提供的java解决方案转化成scala解决方案，没有现成的例子)，消息模板crud，医生列表(需求负责多系统分布式不同逻辑组合)3.前后端分离，postman、charles、switchhost->解决不同环境切换，app测试预发布生产难以调试问题，使用swagger设计简单易懂的restful接口，api层->akka、http，聚合层，dao层，swagger接口 按照接口可视化，定义各层级的协议和消息类，需求->设计->架构->前后端分离->数据库脚本管理->持续化构建，高性能->netty，高可用->nginx4.ddl、dml数据库操作
+5.持续化构建、开发、迭代，sbt、maven、jinkens、nexus基于不同环境打包
+docker+swarm+portainer
+jira->sprint(story、bug)
