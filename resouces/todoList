@@ -1,0 +1,11 @@
+1、依赖关系=>uml  
+依赖关系=>设计原则=>设计模式=>开发
+依赖关系=>抽象接口类和上下文的关系=>tdd、组件、DDD=>高可用、高并发、高性能、分布式、高负载、持久化、security、事务、任务调度、mvc、工作流、mina、SOA、springbatch、消息中间件=>架构、框架
+2、多线程基本特性=>并发反模式
+3、状态机=>日志管理
+4、持续需求迭代(jira、禅道)、开发(maven，junit，idea，debug，gitlab，nexus、charles、postman)、测试(自动化测试、压力测试、黑盒白盒测试)、部署(jinkens、shell、docker)
+5、前后端分离(restful)、动静分离(静态js、css、html资源)、dns(nginx)、分布式(soa)、分库分表分区、分布式文件系统、分布式nosql数据库
+6、规范=>代码与注释，设计文档，操作文档，架构文档，数据库表结构文档，交接文档，部署文档，安全性
+7、socket、集合、多线程、范型、异常
+8、jvm调优、tomcat、mysql原理、框架源码
+9、分布式，大数据，AI
